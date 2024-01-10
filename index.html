@@ -13,7 +13,7 @@
 
 <body>
     <!-- /navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
@@ -41,69 +41,80 @@
             </div>
         </div>
     </nav>
+
     <!-- /navigation -->
     <!--content-->
 
-    <div class="container">
-        <h1>Linux</h1>
-        <h2>some small content here</h2>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="..." alt="First slide">
+    <div class="container p-5">
+        <div class="row p-2">
+            <h1>Linux</h1>
+            <div class="col offset-2">
+                <h2>Open Source Powerhouse: - Robust, Multitasking, Secure, Diverse!</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 order-lg-2 mb-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img class="card-img-top " src="src/images/logo.jpg" alt="Linux Penguin Logo">
+                            <br>
+                            <a href="#" class="btn btn-dark">Aprende Más</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <p>
-                        Linux es un sistema operativo similar a Windows o macOS, pero con una gran diferencia: es de
-                        código abierto.
-                        Esto significa que su código fuente está disponible para cualquiera que quiera ver, modificar o
-                        distribuir.
-                        A diferencia de los sistemas operativos tradicionales, Linux tiene muchas distribuciones
-                        diferentes (como
-                        Ubuntu, Fedora o Debian), cada una con su estilo y conjunto de herramientas, pero comparten el
-                        núcleo del
-                        sistema operativo Linux.
-                    </p>
+                <div class="col-lg-4 order-lg-1 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">¿Qué es?</h4>
+                            <p class="card-text">Linux es un sistema operativo similar a Windows o macOS, pero con una
+                                gran
+                                diferencia: es de código abierto.
+                                Esto significa que su código fuente está disponible para cualquiera que quiera ver,
+                                modificar o distribuir.
+                                A diferencia de los sistemas operativos tradicionales, Linux tiene muchas distribuciones
+                                diferentes (como
+                                Ubuntu, Fedora o Debian), cada una con su estilo y conjunto de herramientas, pero
+                                comparten
+                                el núcleo del
+                                sistema operativo Linux.</p>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <p>
-                        Lo interesante de Linux es que es gratuito y puedes personalizarlo según tus necesidades.
-                        Además, es conocido por ser robusto, seguro y utilizado en una variedad de dispositivos, desde
-                        computadoras personales hasta servidores y dispositivos integrados. Muchos entusiastas de la
-                        tecnología
-                        y profesionales de la informática aprecian Linux por su flexibilidad y la comunidad activa que
-                        lo respalda.
-                        ¡Es una excelente opción para explorar si te apasiona la tecnología y la personalización!.
-                    </p>
+                <div class="col-lg-4 order-lg-3 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">¿Por qué se usa?</h4>
+                            <p class="card-text">Lo interesante de Linux es que es gratuito y puedes personalizarlo
+                                según
+                                tus necesidades.
+                                Además, es conocido por ser robusto, seguro y utilizado en una variedad de dispositivos,
+                                desde
+                                computadoras personales hasta servidores y dispositivos integrados. Muchos entusiastas
+                                de la
+                                tecnología
+                                y profesionales de la informática aprecian Linux por su flexibilidad y la comunidad
+                                activa
+                                que lo respalda.
+                                ¡Es una excelente opción para explorar si te apasiona la tecnología y la
+                                personalización!..
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
     </div>
-    <div class="navbar navbar-expand-lg bg-dark">
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <h4>Created by 
-                <a href="https://www.linkedin.com/in/ratcliffealison/" target="blank"
-                    class="white-text">Alison
-                    Ratcliffe</a> 
-            </h4>
+            <span class="navbar-text ">Created by
+                <a href="https://www.linkedin.com/in/ratcliffealison/" target="blank" class="white-text">Alison
+                    Ratcliffe</a>
+            </span>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
