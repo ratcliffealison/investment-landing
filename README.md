@@ -1,2 +1,2 @@
-# investment-landing
- landing page for personal investment page
+# linux-landing
+ landing page about Linux OS
