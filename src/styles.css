@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Merriweather:wght@300&display=swap');
+
+
+/* font-family: 'Karla', sans-serif;
+font-family: 'Karla', sans-serif;*/
+
+body { 
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+h1, h2, h3, h4, a { 
+    font-family: 'Karla', sans-serif;
+}
